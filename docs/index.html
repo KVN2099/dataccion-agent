@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataccion — Mujeres en el Mercado Laboral Latinoamericano</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #1a1a2e; color: #e0e0e0; }
+        header { background: linear-gradient(135deg, #16213e, #0f3460); padding: 2rem; text-align: center; border-bottom: 3px solid #e94560; }
+        header h1 { font-size: 1.8rem; margin-bottom: 0.5rem; color: #ffffff; }
+        header p { font-size: 1rem; color: #a0a0b8; max-width: 800px; margin: 0 auto; }
+        .dashboard-container { width: 100%; height: calc(100vh - 140px); min-height: 600px; }
+        .dashboard-container iframe { width: 100%; height: 100%; border: none; }
+        footer { background: #16213e; padding: 1rem; text-align: center; font-size: 0.85rem; color: #a0a0b8; }
+        footer a { color: #e94560; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dataccion: Mujeres en el Mercado Laboral Latinoamericano</h1>
+        <p>Panel de investigación — ONU Mujer | Barreras estructurales, económicas y culturales en 22+ países de América Latina y el Caribe</p>
+    </header>
+    <div class="dashboard-container">
+        <iframe
+            src="https://dbc-779d0bf6-94c0.cloud.databricks.com/embed/dashboardsv3/01f13543b2471c588e09533c84552e54?o=1122590718777865"
+            width="100%"
+            height="100%"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+    </div>
+    <footer>
+        <p>Fuentes: Banco Mundial (2020-2024), OIT/ILO (2015-2025) |
+        <a href="https://github.com/AnaPrec07/dataccion-agent">GitHub</a> |
+        Powered by <a href="https://databricks.com">Databricks</a></p>
+    </footer>
+</body>
+</html>
